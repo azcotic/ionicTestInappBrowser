@@ -31,7 +31,7 @@ constructor( public platform: Platform,public navCtrl: NavController,private iab
 
 	const loading = this.loadingCtrl.create();//use loader
     loading.present();
-    const browser = this.iab.create('https://www.foebbva.com/', '_self',options);
+    const browser = this.iab.create('https://www.foebbva.com/', '_self');
 
     
 
